@@ -2,5 +2,5 @@ vendor/
 node_modules/
 .DS_Store
 *.log
-tokens/
+tokens/sessions
 cookies.json

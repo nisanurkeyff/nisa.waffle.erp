@@ -1,0 +1,10 @@
+CREATE TABLE `YORUM` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `ISIM` varchar(255) COLLATE utf8_turkish_ci NOT NULL,
+  `YORUM` text COLLATE utf8_turkish_ci,
+  `YILDIZ` int(11) DEFAULT '5',
+  `TARIH` datetime DEFAULT NULL,
+  `DURUM` tinyint(4) DEFAULT '1',
+  `KAYIT_TARIHI` datetime DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_turkish_ci;
